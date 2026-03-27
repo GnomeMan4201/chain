@@ -1,0 +1,4 @@
+pytest
+qrcode
+Pillow
+termcolor
