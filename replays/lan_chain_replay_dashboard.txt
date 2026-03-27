@@ -1,0 +1,5 @@
+==================================================================
+ LANIMORPH :: CHAIN REPLAY DASHBOARD
+==================================================================
+[seed] 192.168.1.50 :: mutation=ghost :: replay_ghost_seed_1757100748.zip
+[seed] 192.168.1.50 :: mutation=ghost :: replay_ghost_seed_1757113655.zip

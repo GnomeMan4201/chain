@@ -1,0 +1,300 @@
+{
+  "exfil": [
+    {
+      "mutation": "mut_8111",
+      "ip": "192.168.1.10",
+      "timestamp": "2025-01-15 10:05:00",
+      "port": "dns_tunnel.py [parasite]",
+      "score": 0.95,
+      "generation": 1
+    },
+    {
+      "mutation": "mut_8193",
+      "ip": "192.168.1.11",
+      "timestamp": "2025-01-15 10:24:00",
+      "port": "silent_exfil.sh [phantom]",
+      "score": 0.769,
+      "generation": 2
+    },
+    {
+      "mutation": "mut_8316",
+      "ip": "192.168.1.12",
+      "timestamp": "2025-01-15 10:58:00",
+      "port": "silent_exfil.sh [phantom]",
+      "score": 0.814,
+      "generation": 3
+    },
+    {
+      "mutation": "mut_8495",
+      "ip": "192.168.1.13",
+      "timestamp": "2025-01-15 11:10:00",
+      "port": "dns_tunnel.py [phantom]",
+      "score": 0.645,
+      "generation": 4
+    },
+    {
+      "mutation": "mut_8685",
+      "ip": "192.168.1.14",
+      "timestamp": "2025-01-15 11:43:00",
+      "port": "data_siphon.py [parasite]",
+      "score": 0.781,
+      "generation": 5
+    },
+    {
+      "mutation": "mut_8799",
+      "ip": "192.168.1.15",
+      "timestamp": "2025-01-15 11:57:00",
+      "port": "data_siphon.py [parasite]",
+      "score": 0.753,
+      "generation": 6
+    },
+    {
+      "mutation": "mut_8990",
+      "ip": "192.168.1.16",
+      "timestamp": "2025-01-15 12:23:00",
+      "port": "dns_tunnel.py [scout]",
+      "score": 0.933,
+      "generation": 7
+    },
+    {
+      "mutation": "mut_9080",
+      "ip": "192.168.1.17",
+      "timestamp": "2025-01-15 12:47:00",
+      "port": "dns_tunnel.py [parasite]",
+      "score": 0.828,
+      "generation": 8
+    },
+    {
+      "mutation": "mut_9242",
+      "ip": "192.168.1.18",
+      "timestamp": "2025-01-15 13:06:00",
+      "port": "data_siphon.py [parasite]",
+      "score": 0.686,
+      "generation": 9
+    },
+    {
+      "mutation": "mut_9405",
+      "ip": "192.168.1.19",
+      "timestamp": "2025-01-15 13:34:00",
+      "port": "data_siphon.py [ghost]",
+      "score": 0.67,
+      "generation": 10
+    },
+    {
+      "mutation": "mut_9518",
+      "ip": "192.168.1.20",
+      "timestamp": "2025-01-15 13:53:00",
+      "port": "silent_exfil.sh [parasite]",
+      "score": 0.707,
+      "generation": 11
+    },
+    {
+      "mutation": "mut_9702",
+      "ip": "192.168.1.21",
+      "timestamp": "2025-01-15 14:25:00",
+      "port": "silent_exfil.sh [parasite]",
+      "score": 0.863,
+      "generation": 12
+    }
+  ],
+  "scanner": [
+    {
+      "mutation": "mut_9778",
+      "ip": "192.168.1.10",
+      "timestamp": "2025-01-15 10:07:00",
+      "port": "host_enum.sh [phantom]",
+      "score": 0.781,
+      "generation": 1
+    },
+    {
+      "mutation": "mut_9853",
+      "ip": "192.168.1.11",
+      "timestamp": "2025-01-15 10:29:00",
+      "port": "service_probe.py [ghost]",
+      "score": 0.629,
+      "generation": 2
+    },
+    {
+      "mutation": "mut_10022",
+      "ip": "192.168.1.12",
+      "timestamp": "2025-01-15 10:59:00",
+      "port": "host_enum.sh [ghost]",
+      "score": 0.636,
+      "generation": 3
+    },
+    {
+      "mutation": "mut_10077",
+      "ip": "192.168.1.13",
+      "timestamp": "2025-01-15 11:09:00",
+      "port": "service_probe.py [scout]",
+      "score": 0.68,
+      "generation": 4
+    },
+    {
+      "mutation": "mut_10225",
+      "ip": "192.168.1.14",
+      "timestamp": "2025-01-15 11:39:00",
+      "port": "service_probe.py [scout]",
+      "score": 0.878,
+      "generation": 5
+    },
+    {
+      "mutation": "mut_10365",
+      "ip": "192.168.1.15",
+      "timestamp": "2025-01-15 12:06:00",
+      "port": "service_probe.py [ghost]",
+      "score": 0.849,
+      "generation": 6
+    },
+    {
+      "mutation": "mut_10518",
+      "ip": "192.168.1.16",
+      "timestamp": "2025-01-15 12:21:00",
+      "port": "port_sweep.py [phantom]",
+      "score": 0.684,
+      "generation": 7
+    },
+    {
+      "mutation": "mut_10665",
+      "ip": "192.168.1.17",
+      "timestamp": "2025-01-15 12:52:00",
+      "port": "host_enum.sh [ghost]",
+      "score": 0.942,
+      "generation": 8
+    }
+  ],
+  "polymorph": [
+    {
+      "mutation": "mut_10863",
+      "ip": "192.168.1.10",
+      "timestamp": "2025-01-15 10:02:00",
+      "port": "adaptive_payload.py [mimic]",
+      "score": 0.904,
+      "generation": 1
+    },
+    {
+      "mutation": "mut_10994",
+      "ip": "192.168.1.11",
+      "timestamp": "2025-01-15 10:24:00",
+      "port": "mutant_shell.py [scout]",
+      "score": 0.977,
+      "generation": 2
+    },
+    {
+      "mutation": "mut_11162",
+      "ip": "192.168.1.12",
+      "timestamp": "2025-01-15 10:55:00",
+      "port": "shape_shift.sh [ghost]",
+      "score": 0.823,
+      "generation": 3
+    },
+    {
+      "mutation": "mut_11313",
+      "ip": "192.168.1.13",
+      "timestamp": "2025-01-15 11:12:00",
+      "port": "adaptive_payload.py [ghost]",
+      "score": 0.852,
+      "generation": 4
+    },
+    {
+      "mutation": "mut_11370",
+      "ip": "192.168.1.14",
+      "timestamp": "2025-01-15 11:35:00",
+      "port": "shape_shift.sh [scout]",
+      "score": 0.609,
+      "generation": 5
+    },
+    {
+      "mutation": "mut_11538",
+      "ip": "192.168.1.15",
+      "timestamp": "2025-01-15 11:58:00",
+      "port": "adaptive_payload.py [scout]",
+      "score": 0.841,
+      "generation": 6
+    },
+    {
+      "mutation": "mut_11641",
+      "ip": "192.168.1.16",
+      "timestamp": "2025-01-15 12:21:00",
+      "port": "shape_shift.sh [ghost]",
+      "score": 0.852,
+      "generation": 7
+    }
+  ],
+  "lateral": [
+    {
+      "mutation": "mut_11793",
+      "ip": "192.168.1.10",
+      "timestamp": "2025-01-15 10:04:00",
+      "port": "pivot_agent.py [scout]",
+      "score": 0.646,
+      "generation": 1
+    },
+    {
+      "mutation": "mut_11907",
+      "ip": "192.168.1.11",
+      "timestamp": "2025-01-15 10:38:00",
+      "port": "lateral_hop.py [parasite]",
+      "score": 0.904,
+      "generation": 2
+    },
+    {
+      "mutation": "mut_11967",
+      "ip": "192.168.1.12",
+      "timestamp": "2025-01-15 10:49:00",
+      "port": "pivot_agent.py [scout]",
+      "score": 0.669,
+      "generation": 3
+    },
+    {
+      "mutation": "mut_12135",
+      "ip": "192.168.1.13",
+      "timestamp": "2025-01-15 11:23:00",
+      "port": "lateral_hop.py [ghost]",
+      "score": 0.884,
+      "generation": 4
+    },
+    {
+      "mutation": "mut_12231",
+      "ip": "192.168.1.14",
+      "timestamp": "2025-01-15 11:37:00",
+      "port": "pivot_agent.py [phantom]",
+      "score": 0.969,
+      "generation": 5
+    }
+  ],
+  "decoy": [
+    {
+      "mutation": "mut_12317",
+      "ip": "192.168.1.10",
+      "timestamp": "2025-01-15 10:14:00",
+      "port": "fake_service.sh [parasite]",
+      "score": 0.904,
+      "generation": 1
+    },
+    {
+      "mutation": "mut_12414",
+      "ip": "192.168.1.11",
+      "timestamp": "2025-01-15 10:26:00",
+      "port": "decoy_beacon.py [scout]",
+      "score": 0.609,
+      "generation": 2
+    },
+    {
+      "mutation": "mut_12547",
+      "ip": "192.168.1.12",
+      "timestamp": "2025-01-15 10:50:00",
+      "port": "honeypot_lure.py [phantom]",
+      "score": 0.939,
+      "generation": 3
+    },
+    {
+      "mutation": "mut_12723",
+      "ip": "192.168.1.13",
+      "timestamp": "2025-01-15 11:19:00",
+      "port": "honeypot_lure.py [mimic]",
+      "score": 0.784,
+      "generation": 4
+    }
+  ]
+}

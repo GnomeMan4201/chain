@@ -1,0 +1,13 @@
+LANIMORPH :: REPLAY STATS
+
+Top Spreaders:
+  192.168.1.33    → 155 injections
+
+Most Targeted Hosts:
+  192.168.1.16    ← 2 times
+  192.168.1.12     ← 1 times
+  192.168.1.140     ← 1 times
+  192.168.1.199     ← 1 times
+  192.168.1.209     ← 1 times
+
+Possible Chain Loops:

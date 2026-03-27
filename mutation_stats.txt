@@ -1,0 +1,12 @@
+LANIMORPH Personality Stats
+==============================
+Scout      : 47
+Mimic      : 31
+Parasite   : 19
+Ghost      : 12
+Phantom    : 8
+─────────────────────────────
+Total runs : 117
+Avg stealth: 0.847
+Last run   : 2025-01-15 14:22:11
+Active vault: demo_corpus_v1
