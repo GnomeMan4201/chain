@@ -2,7 +2,7 @@
 
 > mutation engine + lineage tracker for adaptive payload ecosystems
 
-part of the **LANimals collective** // built by [bad_banana](https://dev.to/bad_banana)
+part of the **LANimals collective** // built by [GnomeMan4201](https://dev.to/bad_banana)
 
 ---
 
