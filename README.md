@@ -125,3 +125,21 @@ part of the [LANimals collective](https://github.com/GnomeMan4201) ecosystem.
 ---
 
 *the work speaks first.*
+
+---
+
+## configuration
+
+all path references are centralized in `chain_config.py`.
+
+override vault location via environment variables:
+```bash
+export LANIMORPH_VAULT=~/your/vault/path
+export LANIMORPH_LOGS=~/your/logs/path
+export LANIMORPH_MEM=~/your/memory/path
+```
+
+or run the setup helper to initialize the default vault structure:
+```bash
+python3 chain_config.py
+```
